@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Catálogo y Descuentos</title>
+</head>
+<body>
+
+    <!-- Menú de navegación para volver a la página de inicio -->
+    <header>
+        <h1>Catálogo GameZone</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos y Descuentos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de la línea de profundización -->
+        <section>
+            <h2>Simulador de Compra Gamer</h2>
+            <p>Calcula el costo total de tus videojuegos y aplica códigos de descuento exclusivos en tiempo real.</p>
+            
+            <!-- Imagen 2 del Control Gamer -->
+            <img src="gta8.webp" alt="Control inalámbrico ergonómico para videojuegos" width="250">
+
+            <br><br>
+            <!-- Formulario interactivo para JavaScript -->
+            <div>
+                <label for="precioJuego">Precio del Videojuego ($):</label><br>
+                <input type="number" id="precioJuego" value="60"><br><br>
+
+                <label for="cantidad">Cantidad de unidades:</label><br>
+                <input type="number" id="cantidad" value="1"><br><br>
+
+                <label for="codigoCupon">Código de Cupón Promocional:</label><br>
+                <input type="text" id="codigoCupon" placeholder="Ej: GAMER10"><br><br>
+
+                <button id="btnCalcular">Calcular Total</button>
+            </div>
+
+            <!-- Contenedor donde JavaScript inyectará el resultado en la pantalla -->
+            <div id="resultadoContenedor" style="margin-top: 20px; font-weight: bold; color: #2ecc71;"></div>
+        </section>
+    </main>
+
+    <!-- Pie de página obligatorio -->
+    <footer>
+        <p>&copy; 2026 GameZone. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Vinculación con tu archivo de lógica de programación -->
+    <script src="scripts.js"></script>
+
+</body>
+</html>
